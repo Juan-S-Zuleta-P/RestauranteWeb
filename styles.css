@@ -1,0 +1,87 @@
+.contenedor-restaurante {
+    background-image: url('img/FondoR.jpg'); /* Reemplaza 'fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    /*color: #fff;*/
+    
+}
+
+.restaurante {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    /*border: 1px solid #ff0000;*/
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-categorias {
+    display: none;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
